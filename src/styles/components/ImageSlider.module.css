@@ -1,0 +1,75 @@
+.image-slider {
+  position: relative;
+  /* display: flex; */
+  /* align-items: center; */
+  overflow: hidden;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  transform-origin: 50% 50%;
+  /* display: block;  */
+}
+
+.zoom-controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.75rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 4px 6px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  
+}
+
+.prev-button:hover, .next-button:hover, 
+.zoom-in-btn:hover, .zoom-out-btn:hover,
+.reset-btn:hover {
+  color: green;
+}
+
+.prev-button {
+  left: 0;
+} 
+.next-button {
+  right: 0;
+}
+
+.right-icon, .left-icon {
+  width: 30px;
+}
+
+.mPlusIcon, .mMinusIcon {
+  width: 20px;
+}
+
+.image-index {
+  position: absolute;
+  /* left: 50%;
+  bottom: 0;
+  transform: translateX(-50%); */
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 4px 6px;
+  z-index: 1;
+}

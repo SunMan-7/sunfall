@@ -1,0 +1,22 @@
+.content-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.heading, .subheading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  margin-bottom: 2em;
+}
+
+.project-list {
+  margin-bottom: 2em;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}

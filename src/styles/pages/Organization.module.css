@@ -1,0 +1,46 @@
+.content-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.heading, .subheading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  margin-bottom: 2em;
+}
+
+.subheading {
+  margin-bottom: 1em;
+}
+.project-list {
+  margin-bottom: 2em;
+}
+
+.project-item {
+  border-top: 1px solid #E3E4BF;
+  border-bottom: 1px solid #E3E4BF;
+  margin-bottom: 0.6rem;
+}
+
+.project-button {
+  width: 100%;
+  text-align: left;
+  padding-left: 1em;
+}
+
+.project-button:hover{
+  background-color: gainsboro;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.span {
+  font-size: 0.85em;
+  color: grey;
+}

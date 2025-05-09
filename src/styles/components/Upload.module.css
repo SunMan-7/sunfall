@@ -1,0 +1,85 @@
+/* section {
+  background-color: grey;
+} */
+.dropzoneContent{
+  height: 75px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px dashed #eeeeee;
+  border-radius: 2px;
+  /* background-color: #fafafa; */
+  background-color: grey;
+  color: #bdbdbd;
+  outline: none;
+  transition: border .24s ease-in-out;
+}
+
+.thumbsContainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;  
+  margin-bottom: 16px;
+}
+
+.thumb {
+  display: flex;  
+  margin-bottom: 8px;
+  margin-right: 8px;
+  width: 100px;  
+  padding: 4;
+  box-sizing: border-box;
+  gap: 1rem;  
+}
+
+.thumbInner {
+  position: relative;
+  /* display: inline-block; */
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  min-width: 0;
+  border-radius: 10px;  
+  
+  /* overflow: hidden; */  
+}
+
+.thumbInner > span {
+  font-weight: bold; 
+  font-size: 20px;
+}
+
+.thumbInner > button {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+}
+
+.cameraImg {
+  display: block;
+  border-radius: 10px;  
+  border: 1px solid #eaeaea;
+  width: 100%;
+  height: 100%;  
+};
+
+.form {
+  width: 100%;
+  margin-top: 3rem;
+}
+.form > * + * {
+  margin-top: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+/* display: 'flex', alignItems: 'center', fontSize: '20px', fontWeight: 'bold', border: '1px solid red' */

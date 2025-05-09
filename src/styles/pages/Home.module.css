@@ -1,0 +1,55 @@
+.content {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.content-heading {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.left-list {
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.project-button, 
+.organization-button, 
+.resource-button 
+{
+  width: 100%;
+  text-align: left;
+  padding-left: 1em;
+}
+
+.organization-button, .resource-button {
+  border-radius: 5px;
+}
+
+.project-button:hover, 
+.organization-button:hover,
+.resource-button:hover 
+{
+  background-color: aliceblue;
+}
+
+.project-wrapper {
+  border-top: 1px solid #E3E4BF;
+  border-bottom: 1px solid #E3E4BF;
+}
+
+.right-list {
+  max-height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-bottom: 1em;
+}
+
+.span {
+  font-size: 0.85em;
+  color: grey;
+}
+

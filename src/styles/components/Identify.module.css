@@ -1,0 +1,92 @@
+.custom-overlay__caption {
+  background-color: rgba(0, 0, 0, 0.8);
+  max-height: 240px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 2px;
+  font-size: 90%;
+  text-align: center;
+}
+
+.custom-overlay__tag {
+  word-wrap: break-word;
+  display: inline-block;
+  background-color: white;
+  height: auto;
+  font-size: 75%;
+  font-weight: 600;
+  line-height: 1;
+  padding: .2em .6em .3em;
+  border-radius: .25em;
+  color: black;
+  vertical-align: baseline;
+  margin: 2px;
+}
+
+.floating-menu {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #009C1C;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  min-width: 375px;  
+}
+
+.floating-menu__left, .floating-menu__right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.floating-menu > span {
+  font-size: 16px;
+}
+.close-icon, .delete-icon {
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  cursor: pointer;
+}
+.close-icon:hover, .delete-icon:hover {
+  color: black;
+  background: aliceblue;
+  border-radius: 50%;
+}
+
+.metadata-icon {
+  width: 24px;
+  height: 24px;
+  /* color: #0D6EFD; */
+  color: #4285F4;
+  cursor: pointer;
+}
+
+.metadata-icon:hover {
+  color: #7aafff;
+}
+
+.metadata-edit-btn{
+  font-size: 10px;
+  font-weight: bold;
+  color: green;
+  background: #E3F4E9;
+  border-radius: 25px;
+  padding: 2px 12px
+  
+}
+
+.metadata-edit-btn:hover {
+  background: #c7f3d6;
+}

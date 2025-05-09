@@ -1,0 +1,41 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  border-right: 1px solid gainsboro;
+  padding-top: 5em;
+  justify-content: space-between;
+}
+
+.sidebar__link {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  font-weight: 600;
+  /* color:rgb(29, 29, 29); */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 25px;
+  gap: 15px;
+  transition: all 0.5s;  
+  border-radius: 0 20px 20px 0;
+}
+
+.sidebar__link:hover{
+  background: aliceblue;
+  /* background: #CEF6FF; */
+  transition: all 0.5s;
+}
+
+.sidebar__link:active {
+  background: rgb(243, 244, 246);
+}
+
+.sidebar__link-icon {
+  width: 24px;
+  height: 24px;
+  color: rgb(107, 114, 128);
+  flex-shrink: 0;
+}
