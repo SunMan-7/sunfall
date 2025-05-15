@@ -163,14 +163,14 @@ const OrganizationPage = () => {
           {loadingUsers && <Spinner />}
           {staffs?.user_organizations?.length
           ? <>
-            <p>Below are the people who can manage all projects listed above:</p>
+            <p>Below are the people who can manage all projects listed above: Testing something ^~^</p>
             <EditOrgUserList
               userData={staffs?.user_organizations}
               user_id={user?.id}
               userRole={user?.defaultRole}
             />
             </>            
-          : <div>No members added as yet. Testing something</div>  
+          : <div>No members added as yet.</div>  
           
         }
         </div>
